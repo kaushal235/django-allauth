@@ -6,3 +6,4 @@ class AccountConfig(AppConfig):
     name = "allauth.account"
     verbose_name = _("Accounts")
     default_auto_field = "django.db.models.AutoField"
+    label = 'allauth_account'
